@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F1F3F6;
+}
+nav {
+    height: 35px;
+    background-color: #2874F0;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+}
+
+
+.logo p{
+    color: white;
+    display: inline-flex;
+    font-family:'Roboto';
+    font-style: italic;
+    font-size: 10px;
+    font-weight: 500;
+    position: relative;
+    top: -7px; 
+}
+
+.logo p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.plus-text{
+    color:#FFE500;
+    padding-left: 3px;
+}
+.search-bar {
+    margin: 0px 0px 0px 12px;
+    width: 304px;
+    display: flex;
+    border-radius: 2px;
+    
+}
+.search-bar input{
+    
+    border: none;
+    outline: none;
+    width: 262px;
+    padding: 0px 16px;
+    height: 36px;
+
+}
+.search-bar i{
+    color: #2874F0;
+    /* color:white; */
+}
+.search-bar button{
+    width: 42px;
+    height: 36px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+.login-button button{
+    margin: 3px 0px 0px 20px;
+    width: 121px;
+    height: 31px;
+    background-color: white;
+    color: #2874F0;
+    font-family: 'Roboto';
+    font-size: 15px;
+    outline: none;   
+    border: 1px solid #dbdbdb;
+}
+.nav-title{
+    color:white;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+.become-a-seller{
+    cursor: pointer;
+    margin: 7px 0px 0px 30px;
+}
+.more{
+    cursor: pointer;
+    margin: 7px 0px 0px 30px;
+    color: white;
+
+}
+
+.cart{
+    cursor: pointer;
+    margin: 7px 0px 0px 30px;
+    color: white;
+}
+/* Category-section */
+
+.categories {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 132px;
+    box-shadow: 0px 1px 2px rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.category-item {
+    text-align: center;
+}
+
+.category-item img{
+    cursor: pointer;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.category-title{
+    font-weight: 500;
+    font-size: 12px;
+    font-family:'Roboto';
+    vertical-align: middle;
+}
+.category-title:hover {
+    color: #2874F0;
+    cursor: pointer;
+    
+}
+
+/* Carousel */
+.carousel{
+    /* padding: 8px; */
+    margin: 10px;
+    height: 280px;
+    object-fit: fill;
+
+}
+
+/* group item title section  */
+.group-title-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 325px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* doubt on img resizing inside a container */
+.group-title-container img{
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+}
+
+
+.group-title-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    
+}
+.group-title{
+    text-align: center;
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+    margin: 35px 0px 25px;
+
+}
+.view-all-button{
+    cursor: pointer;
+    width: 95px;
+    height: 35px;
+    color: white;
+    background-color: #2874F0;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgb(129, 129, 129);
+}
+
+
+/* group item section  */
+.group-items{
+    display: flex;
+    padding: 0px 7px 10px 7px;
+    margin-left: 3px;
+
+}
+.group-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 305px;
+    background-color:white;
+    padding: 10px;
+    justify-content: space-around;
+}
+.group-item:hover{
+    cursor: pointer;
+}
+.group-item img{
+    margin: 25px 0px;
+    transition-duration: 0.2s;
+}
+.group-item img:hover{
+    transform: scale(1.03);
+}
+.group-item-title{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+.green-item-text{
+    color: #388e3c;
+    font-family: Arial;
+}
+.grey-item-text{
+    color: #212121;
+    opacity: 0.6;
+    font-family: Arial;
+    font-size: 13px;
+}
+/* container for items only for scrollable beh.  */
+.group-items-container{
+    display: flex;
+}
+/* ** */
+
+/* top-stories = ts  */
+.top-stories-text {
+    color: rgb(102, 102, 102);
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+.ts-heading {
+    padding: 0px 0px 12px 0px;
+}
+.brand-directory-text {
+    font-family: 'Roboto';
+    color: rgb(56, 56, 56);
+    font-size: 14px;
+}
+.most-searched-title{
+    font-family: Arial;
+    font-size: 13px;
+    color: rgb(112, 112, 112);
+}
+.most-searched {
+    font-size: 11px;
+    font-family: Arial;
+    color: rgb(96, 96, 96);
+
+}
+
+/* flipkart services  */
+.service {
+    padding: 12px 0px;
+}
+.flipkart-services {
+    padding: 12px 0px;
+}
+.service-title {
+    color: rgb(110, 110, 110);
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 0px 0px 8px 0px;
+}
+.service-desc {
+    font-size: 11px;
+    font-family: Arial;
+    color: grey;
+}
+.last-section {
+    background-color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer top  */
+.footer-top{
+    background-color: #172337;
+    display: flex;
+    padding:40px 0px 35px 30px;
+    justify-content: space-around;
+
+}
+.footer-grey-title {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.footer-content {
+    color: white;
+    font-size: 11px;
+    font-family: Arial;
+}
+.footer-content-mailus {
+    color: white;
+    font-size: 11px;
+    font-family: 'Roboto';
+    margin-left: 30px;
+    /* outline-color: yellow;
+    outline: 2px #FFE500;
+    outline-style: solid; */
+   
+}
+.footer-content-mailus-border {
+    border-left: 1px solid #454d5e;
+    padding-left: 20px;
+}
+
+.footer-medium-text {
+    display: block;
+    padding: 6px 0px;
+    
+    
+}
+.footer-medium-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-phone-no-text {
+    color: #2874F0;
+    font-family: 'Roboto';
+}
+
+/* bottom footer  */
+.footer-bottom {
+    border-top:1px solid #454d5e;
+
+}
+.footer-bottom-items{
+    padding: 27px;
+    background-color:#172337;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-bottom-navlink-item {
+    box-sizing: border-box;
+    display: flex;
+    column-gap: 8px;
+    justify-content: space-around;
+}
+.footer-bottom-text {
+    white-space: nowrap;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+}
+.copyright-text {
+    color: white;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+
